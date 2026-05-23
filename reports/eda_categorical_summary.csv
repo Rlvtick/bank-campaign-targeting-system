@@ -1,0 +1,11 @@
+column,unique_count,top_value,top_count,top_percentage
+job,12,admin.,10419,25.3
+marital,4,married,24921,60.52
+education,8,university.degree,12164,29.54
+default,3,no,32577,79.12
+housing,3,yes,21571,52.39
+loan,3,no,33938,82.42
+contact,2,cellular,26135,63.47
+month,10,may,13767,33.43
+day_of_week,5,thu,8618,20.93
+poutcome,3,nonexistent,35551,86.34

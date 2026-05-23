@@ -1,0 +1,13 @@
+topic,finding,project_use
+Target distribution,"The positive class rate is 11.27%, so the dataset is imbalanced.","Use metrics beyond accuracy, such as PR-AUC, recall, precision, F1, and threshold simulation."
+Leakage handling,The duration column exists in the raw data but is excluded from the model-ready dataset.,This keeps the project aligned with a pre-call targeting use case.
+Segment pattern: job,The highest observed subscription rate for job is student at 31.43% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: marital,The highest observed subscription rate for marital is unknown at 15.0% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: education,The highest observed subscription rate for education is unknown at 14.51% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: default,The highest observed subscription rate for default is no at 12.88% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: housing,The highest observed subscription rate for housing is yes at 11.62% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: loan,The highest observed subscription rate for loan is no at 11.34% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: contact,The highest observed subscription rate for contact is cellular at 14.74% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: month,The highest observed subscription rate for month is mar at 50.55% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: day_of_week,The highest observed subscription rate for day_of_week is thu at 12.11% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.
+Segment pattern: poutcome,The highest observed subscription rate for poutcome is success at 65.11% among categories with at least 50 customers.,Use as exploratory context. This does not prove causality.

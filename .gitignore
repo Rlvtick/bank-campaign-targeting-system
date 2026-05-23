@@ -48,3 +48,6 @@ reports/*.pdf
 
 # Extracted raw dataset folders
 data/raw/uci_bank_marketing_extracted/
+
+# Generated EDA figures
+reports/figures/
