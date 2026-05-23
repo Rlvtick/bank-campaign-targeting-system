@@ -1,0 +1,15 @@
+item,value
+raw_rows,41188
+expected_rows,41188
+raw_columns,21
+expected_columns,21
+duplicate_rows_removed,12
+total_missing_values,0
+target_column_exists,True
+target_column,y
+unexpected_target_values,[]
+duration_column_exists,True
+duration_removed_from_model_ready,True
+model_ready_rows,41176
+model_ready_columns,21
+model_ready_path,data/processed/bank_marketing_model_ready.csv
