@@ -1,0 +1,9 @@
+item,value
+dataset_name,Bank Marketing
+source,UCI Machine Learning Repository
+uci_dataset_id,222
+preferred_source_file,bank-additional-full.csv
+raw_rows,41188
+raw_columns,21
+target_column,y
+raw_data_path,data/raw/bank_marketing_uci_bank_additional_full_raw.csv
