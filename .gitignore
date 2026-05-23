@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment and secrets
+.env
+*.env
+secrets/
+*.pem
+*.key
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# System files
+.DS_Store
+
+# Large or temporary files
+data/raw/*.zip
+data/raw/*.xlsx
+data/raw/*.csv
+data/processed/*.csv
+data/predictions/*.csv
+
+# Model artifacts
+models/*.joblib
+models/*.pkl
+
+# Reports generated during execution
+reports/*.png
+reports/*.jpg
+reports/*.jpeg
+reports/*.pdf
+
+# Streamlit
+.streamlit/secrets.toml
