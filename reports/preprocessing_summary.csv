@@ -1,0 +1,11 @@
+item,value
+input_rows_before_post_leakage_deduplication,41176
+duplicate_rows_removed_after_duration_removal,1772
+rows_after_post_leakage_deduplication,39404
+train_rows,31523
+validation_rows,3940
+test_rows,3941
+categorical_feature_count,10
+numerical_feature_count,10
+preprocessor_path,models/preprocessing_pipeline.joblib
+random_state,42

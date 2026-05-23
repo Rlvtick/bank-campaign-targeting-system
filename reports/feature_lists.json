@@ -1,0 +1,56 @@
+{
+  "categorical_features": [
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "numerical_features": [
+    "age",
+    "campaign",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "was_previously_contacted",
+    "pdays_clean"
+  ],
+  "all_features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "campaign",
+    "previous",
+    "poutcome",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "was_previously_contacted",
+    "pdays_clean"
+  ],
+  "target": "y_binary",
+  "dropped_from_features": [
+    "y"
+  ],
+  "engineered_features": [
+    "was_previously_contacted",
+    "pdays_clean"
+  ]
+}

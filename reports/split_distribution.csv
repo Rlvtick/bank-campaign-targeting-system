@@ -1,0 +1,4 @@
+split,rows,positive_count,negative_count,positive_rate
+train,31523,3678,27845,0.116677
+validation,3940,460,3480,0.116751
+test,3941,460,3481,0.116722
