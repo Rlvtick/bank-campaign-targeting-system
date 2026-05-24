@@ -51,3 +51,7 @@ data/raw/uci_bank_marketing_extracted/
 
 # Generated EDA figures
 reports/figures/
+
+data/database/*.db
+data/database/*.sqlite
+*.db-journal

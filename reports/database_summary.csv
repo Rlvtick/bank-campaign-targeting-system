@@ -1,0 +1,10 @@
+object_name,object_type,row_count
+processed_customers,table,3941
+model_scores,table,3941
+threshold_simulation,table,12
+fixed_threshold_simulation,table,18
+selected_policy,table,1
+top_recommended_customers_view,view,789
+selected_vs_non_selected_view,view,2
+score_distribution_view,view,5
+segment_performance_view,view,25
