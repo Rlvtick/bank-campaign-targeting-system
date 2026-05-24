@@ -4,7 +4,7 @@
 
 This project builds a small end-to-end machine learning workflow for bank campaign targeting using public data. The goal is to predict which customers are more likely to subscribe to a term deposit and use the prediction scores to support campaign prioritization.
 
-The project is designed as a portfolio project for a data science role. It includes data preparation, exploratory data analysis, machine learning modeling, SQL-based score storage, a simple prediction app, a local API endpoint, and a BI dashboard.
+The project includes data preparation, exploratory data analysis, machine learning modeling, SQL-based score storage, a simple prediction app, a local API endpoint, and a BI dashboard.
 
 ## Business Problem
 
@@ -52,7 +52,7 @@ The `duration` feature represents the call duration and is only known after a cu
 
 ## Limitations
 
-This project uses a public dataset as a proxy for a banking campaign targeting problem. It does not use Rakuten Bank data, Japanese bank data, or real proprietary customer data. The result should be interpreted as a portfolio-scale simulation, not a production-ready banking system.
+This project uses a public dataset as a proxy for a banking campaign targeting problem. The result should be interpreted as a portfolio-scale simulation, not a production-ready banking system.
 
 ## References
 
