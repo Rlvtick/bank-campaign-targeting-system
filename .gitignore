@@ -55,3 +55,4 @@ reports/figures/
 data/database/*.db
 data/database/*.sqlite
 *.db-journal
+!models/final_model.joblib
