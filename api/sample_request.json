@@ -1,0 +1,21 @@
+{
+  "age": 53,
+  "job": "management",
+  "marital": "divorced",
+  "education": "university.degree",
+  "default": "no",
+  "housing": "no",
+  "loan": "no",
+  "contact": "cellular",
+  "month": "sep",
+  "day_of_week": "mon",
+  "campaign": 1,
+  "pdays": 3,
+  "previous": 3,
+  "poutcome": "success",
+  "emp.var.rate": -3.4,
+  "cons.price.idx": 92.379,
+  "cons.conf.idx": -29.8,
+  "euribor3m": 0.809,
+  "nr.employed": 5017.5
+}
