@@ -91,6 +91,10 @@ Dashboard file: `dashboard/bank_campaign_targeting_dashboard.twbx`
 
 The interactive Tableau dashboard can be accessed through this [Link](https://public.tableau.com/views/BankCampaignTargetingDashboard/BankCampaignDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
+Dashboard preview:
+
+![Tableau Dashboard](assets/tableau_dashboard.png)
+
 ## Run the Streamlit App
 
 To run the Streamlit demo locally from GitHub:
