@@ -56,3 +56,6 @@ data/database/*.db
 data/database/*.sqlite
 *.db-journal
 !models/final_model.joblib
+
+# Tableau temporary/recovery files
+*.twbr
