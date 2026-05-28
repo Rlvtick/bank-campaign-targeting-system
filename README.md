@@ -81,17 +81,6 @@ The selected targeting policy is **Top 20%**, because it provides a practical ba
 - Achieves a 37.77% subscription rate within the recommended group
 - Produces 3.24x lift compared with the baseline subscription rate
 
-## Project Deliverables
-
-| Component | Description |
-|---|---|
-| Machine learning pipeline | Trains and compares campaign targeting models |
-| Threshold simulation | Evaluates fixed-threshold and top-k targeting policies |
-| SQLite database layer | Stores model scores, selected policy, and dashboard-ready outputs |
-| Streamlit app | Provides single-customer and batch customer scoring |
-| FastAPI endpoint | Provides local API access for customer prediction |
-| Tableau dashboard | Presents stakeholder-facing campaign targeting insights |
-
 ## Tableau Dashboard
 
 The Tableau dashboard translates model outputs into a stakeholder-facing campaign targeting view.
@@ -116,10 +105,6 @@ The app supports:
 - Single-customer scoring
 - Batch CSV scoring
 - Top 20% policy-based recommendation output
-
-Note for Windows users:
-
-    .venv\Scripts\activate
 
 ## Run the FastAPI Endpoint
 
@@ -152,25 +137,6 @@ Example local request:
       -H "Content-Type: application/json" \
       -d @api/sample_request.json
 
-Note for Windows users:
-
-    .venv\Scripts\activate
-
-## Repository Structure
-
-    bank-campaign-targeting-system/
-    ├── api/                 # FastAPI prediction endpoint
-    ├── app/                 # Streamlit application
-    ├── dashboard/           # Tableau dashboard and BI-ready CSV files
-    ├── data/                # Raw and processed data
-    ├── models/              # Saved preprocessing pipeline and final model
-    ├── notebooks/           # EDA, modeling, and evaluation notebooks
-    ├── reports/             # Validation, model, and evaluation outputs
-    ├── sql/                 # SQLite schema and sample queries
-    ├── src/                 # Reusable project scripts
-    ├── README.md
-    └── requirements.txt
-
 ## Tools and Technologies
 
 | Area | Tools |
@@ -195,7 +161,6 @@ Key limitations:
 - Actual subscription labels are used only for evaluation and dashboard analysis.
 - The project does not include campaign cost, customer lifetime value, revenue, or profit optimization.
 - Predicted probabilities are mainly used for ranking customers, not as perfectly calibrated probabilities.
-- The Streamlit app, FastAPI endpoint, and Tableau dashboard are portfolio demonstration components, not production deployment systems.
 
 ## References
 
