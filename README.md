@@ -4,20 +4,6 @@ An end-to-end machine learning portfolio project for prioritizing bank marketing
 
 The project simulates a campaign targeting workflow where customers are ranked by predicted subscription likelihood, then evaluated using business-oriented top-k targeting metrics instead of relying only on a default classification threshold.
 
-## Key Result
-
-Using the selected **Top 20% targeting policy** on the historical test set:
-
-| Metric | Result |
-|---|---:|
-| Customers contacted | 789 |
-| Subscribers captured | 298 |
-| Recommended group subscription rate | 37.77% |
-| Subscriber capture rate | 64.78% |
-| Lift | 3.24x |
-
-The selected policy means the campaign team would contact only the highest-scored 20% of customers while still capturing nearly two-thirds of all subscribers in the historical test set.
-
 ## Business Problem
 
 Banks often run marketing campaigns through customer contact channels such as phone calls. Contacting every customer can be inefficient, especially when only a small share of customers are likely to subscribe.
