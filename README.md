@@ -18,22 +18,6 @@ Using the selected **Top 20% targeting policy** on the historical test set:
 
 The selected policy means the campaign team would contact only the highest-scored 20% of customers while still capturing nearly two-thirds of all subscribers in the historical test set.
 
-## Project Overview
-
-This project builds a complete campaign targeting system from data preparation to business-facing delivery.
-
-The system includes:
-
-- Data validation and leakage handling
-- Exploratory data analysis
-- Feature engineering and preprocessing
-- Machine learning model training and comparison
-- Business-oriented threshold and top-k evaluation
-- SQLite database layer
-- Streamlit scoring application
-- FastAPI prediction endpoint
-- Tableau stakeholder dashboard
-
 ## Business Problem
 
 Banks often run marketing campaigns through customer contact channels such as phone calls. Contacting every customer can be inefficient, especially when only a small share of customers are likely to subscribe.
