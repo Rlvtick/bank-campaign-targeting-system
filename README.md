@@ -22,14 +22,6 @@ The target variable is `y`, which indicates whether a customer subscribed to a t
 
 The preferred dataset file is `bank-additional-full.csv`.
 
-## Leakage Handling
-
-The `duration` feature represents call duration and is only known after a customer has already been contacted.
-
-Because this project focuses on pre-call campaign targeting, `duration` is excluded from the modeling dataset to avoid target leakage.
-
-This keeps the model aligned with the intended use case: ranking customers before the campaign contact happens.
-
 ## Business Evaluation Design
 
 Because the project is framed as a campaign targeting problem, the final model is evaluated primarily as a ranking system.
@@ -132,6 +124,7 @@ This project is a public-data portfolio simulation, not a production banking sys
 
 Key limitations:
 
+- The `duration` feature was excluded from modeling because it is only known after customer contact and would create target leakage for a pre-call targeting workflow.
 - The dataset is public and does not represent real customer data from a specific bank.
 - The final targeting policy is evaluated on historical test data, not a live campaign.
 - Actual subscription labels are used only for evaluation and dashboard analysis.
