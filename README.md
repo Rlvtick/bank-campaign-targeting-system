@@ -74,6 +74,8 @@ To run the Streamlit demo locally from GitHub:
     pip install -r requirements.txt
     streamlit run app/streamlit_app.py
 
+Streamlit app demo: [Watch demo](assets/streamlit_demo.mov)
+
 The app supports:
 
 - Single-customer scoring
