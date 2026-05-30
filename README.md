@@ -14,6 +14,12 @@ This project focuses on the question:
 
 Instead of treating the model only as a binary classifier, this project frames the task as a **customer ranking and campaign prioritization problem**.
 
+## Project Workflow
+
+The workflow below summarizes how the project moves from raw public campaign data into model-based customer prioritization and business-facing decision support.
+
+![Project Workflow](assets/project_workflow.png)
+
 ## Dataset
 
 This project uses the **UCI Bank Marketing dataset**.
