@@ -74,7 +74,9 @@ To run the Streamlit demo locally from GitHub:
     pip install -r requirements.txt
     streamlit run app/streamlit_app.py
 
-Streamlit app demo: [Watch demo](assets/streamlit_demo.mov)
+Streamlit app demo:
+
+![Streamlit App Demo](assets/streamlit_demo.gif)
 
 The app supports:
 
