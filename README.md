@@ -65,6 +65,8 @@ Dashboard preview:
 
 ## Run the Streamlit App
 
+The live Streamlit app can be accessed through this [Link](https://bank-campaign-targeting-system.streamlit.app/).
+
 To run the Streamlit demo locally from GitHub:
 
     git clone https://github.com/Rlvtick/bank-campaign-targeting-system.git
