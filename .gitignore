@@ -10,52 +10,45 @@ env/
 
 # Jupyter
 .ipynb_checkpoints/
-
 # Environment and secrets
 .env
 *.env
 secrets/
 *.pem
 *.key
-
 # Local databases
 *.db
 *.sqlite
 *.sqlite3
-
 # System files
 .DS_Store
-
 # Large or temporary files
 data/raw/*.zip
 data/raw/*.xlsx
 data/raw/*.csv
 data/processed/*.csv
 data/predictions/*.csv
-
 # Model artifacts
 models/*.joblib
 models/*.pkl
-
 # Reports generated during execution
 reports/*.png
 reports/*.jpg
 reports/*.jpeg
 reports/*.pdf
-
 # Streamlit
 .streamlit/secrets.toml
-
 # Extracted raw dataset folders
 data/raw/uci_bank_marketing_extracted/
-
 # Generated EDA figures
 reports/figures/
-
 data/database/*.db
 data/database/*.sqlite
 *.db-journal
 !models/final_model.joblib
-
 # Tableau temporary/recovery files
 *.twbr
+# macOS
+# Python cache
+*.pyc
+# Jupyter checkpoints
